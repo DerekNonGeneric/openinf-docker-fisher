@@ -9,7 +9,7 @@
         runs-on: ubuntu-latest
         steps:
           - id: skip
-            uses: fkirc/skip-duplicate-actions@master
+            uses: fkirc/skip-duplicate-actions@4c5980e005e0ae8f7d9dff27ae88c605fe4c5ecc # master
             with:
               concurrent_skipping: 'outdated_runs'
               cancel_others: true
